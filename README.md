@@ -1,15 +1,10 @@
-This is an example Ruby project used in Codeanywhere.
+This project is a command-line RSS feeder developed on Ruby.
 
-[Try it out](https://app.codeanywhere.com/#https://github.com/Codeanywhere-Templates/ruby)
+It fetches and displayes the latest news articles from an RSS feed.
+Users can input a custom RSS feed URL
+or use the default IGN Articles RSS feed.
 
-### Running the project
+The project utilizes Ruby and the 'rss' and 'open-uri' libraries
+to provide a simple way to stay updated with news headlines.
 
-Open the terminal and run:
-```sh
-cd test-project
-ruby hello.rb
-```
-Or just press the *Run Code* button found in the top right of the editor panel. 
-### Want to contribute?
-
-Feel free to [open a PR](https://github.com/Codeanywhere-Templates/ruby) with any suggestions for this test project 😃 
+To use it simply install the gem bundle and run the main.rb on your terminal.
